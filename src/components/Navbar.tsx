@@ -7,7 +7,7 @@ import {motion} from "motion/react"
 export default function Navbar() {
     return (
         <motion.nav 
-        className="fixed top-10 left-[15%] flex justify-between items-center w-[70%] p-2 rounded-full border border-gray-500/45"
+        className="fixed top-10 left-[15%] flex justify-between items-center w-[70%] p-2 rounded-full border border-gray-500/45 backdrop-blur-3xl"
         initial={{ opacity: 0, scale: 0.8, filter: "blur(10px)" }}
         whileInView={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
         transition={{duration: 1, ease: "easeInOut", type: "spring", bounce: 0.4}}

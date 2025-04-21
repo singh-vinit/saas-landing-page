@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import LogoTicker from "@/components/LogoTicker";
 
 export default function Home() {
   return (
@@ -7,8 +8,11 @@ export default function Home() {
       <section className="relative pb-[12rem]">
         <Navbar />
       </section>
-      <section className="border border-white pb-[4rem]">
+      <section className="pb-[4rem]">
         <Hero />
+      </section>
+      <section className="p-8 overflow-x-clip">
+        <LogoTicker />
       </section>
     </div>
   );
