@@ -3,6 +3,7 @@ import Logo from "../../public/logo.svg"
 import Image from "next/image"
 import Button from "./Button"
 import {motion} from "motion/react"
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -14,10 +15,10 @@ export default function Navbar() {
         >
             <Image src={Logo} alt="logo" className="w-30 h-10"/>
             <ul className="flex gap-4 text-white font-semibold text-[16px]">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">Features</a></li>
-                <li><a href="/contact">Integrations</a></li>
-                <li><a href="/faq">FAQs</a></li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/about">Features</Link></li>
+                <li><Link href="/contact">Integrations</Link></li>
+                <li><Link href="/faq">FAQs</Link></li>
             </ul>
             <div className="flex gap-x-4">
                 <Button text="Login" className="border-2 border-white bg-black text-white"/>

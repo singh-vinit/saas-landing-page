@@ -14,8 +14,8 @@ const logos = [
 
 export default function LogoTicker() {
   return (
-    <div className="container">
-      <p className="capitalize text-center text-xl font-medium text-lime-400 mb-8">trusted by</p>
+    <div className="w-[80%] mx-auto">
+      <p className="capitalize text-center text-2xl font-bold text-lime-400 mb-10">trusted by</p>
       <div className="flex overflow-hidden mask-l-from-60% mask-l-to-100% mask-r-from-60% mask-r-to-100%">
         <motion.div
           className="flex flex-none gap-24"

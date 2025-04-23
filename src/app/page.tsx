@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import LogoTicker from "@/components/LogoTicker";
+import Introduction from "@/section/Introduction";
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
       <section className="pb-[4rem]">
         <Hero />
       </section>
-      <section className="p-8 overflow-x-clip">
+      <section className="py-10">
         <LogoTicker />
       </section>
+      <Introduction />
     </div>
   );
 }
