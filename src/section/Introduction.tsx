@@ -9,7 +9,7 @@ export default function Introduction() {
     <section className="py-10">
       <Tag
         text="introducing layers"
-        classname="uppercase border border-white mx-auto mb-10"
+        classname="uppercase mx-auto mb-10"
       />
       <AnimatedText text={text} />
     </section>
