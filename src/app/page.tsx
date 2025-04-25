@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import LogoTicker from "@/components/LogoTicker";
 import Introduction from "@/section/Introduction";
+import Features from "@/section/Features";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <LogoTicker />
       </section>
       <Introduction />
+      <Features />
     </div>
   );
 }
