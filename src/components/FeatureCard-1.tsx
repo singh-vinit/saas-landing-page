@@ -12,7 +12,7 @@ export default function FeatureCard1() {
       viewport={{amount: 0.6}}
     >
       <div className="text-center text-3xl font-extrabold text-white/20 mb-8">
-        <p>we've achieved</p>
+        <p>we&apos;ve achieved</p>
         <p className="bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-transparent">
           incredible
         </p>

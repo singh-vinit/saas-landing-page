@@ -24,7 +24,7 @@ export default function AnimatedText({ text }: Props) {
         { duration: 0.4, ease: "easeInOut" }
       );
     }
-  },[isInView])
+  },[isInView, animate])
 
   return (
     <div
